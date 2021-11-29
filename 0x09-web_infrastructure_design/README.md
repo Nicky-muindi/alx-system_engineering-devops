@@ -9,7 +9,7 @@ system.
 Files in this project contain links to each respective whiteboard diagram.
 
 #### Simple Web infrastructure
-![simple web infrastructure](https://imgur.com/a/hQa2kPg)
+![simple web infrastructure](https://imgur.com/a/hQa2kPg.jpg)
 #### Distributed Web Infrastructure
 ![distributed web infrastructure](https://imgur.com/a/8aV2kRj)
 #### Secured and Monitored Infrastructure
