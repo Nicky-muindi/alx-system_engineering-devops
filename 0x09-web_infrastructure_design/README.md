@@ -11,12 +11,12 @@ Files in this project contain links to each respective whiteboard diagram.
 #### Simple Web infrastructure
 ![simple web infrastructure](https://imgur.com/a/hQa2kPg.jpg)
 #### Distributed Web Infrastructure
-![distributed web infrastructure](https://imgur.com/a/8aV2kRj)
+![distributed web infrastructure](https://imgur.com/a/8aV2kRj.jpg)
 #### Secured and Monitored Infrastructure
-![secured and monitored infrastructure](https://imgur.com/a/8aV2kRj)
+![secured and monitored infrastructure](https://imgur.com/a/8aV2kRj.jpg)
 #### Scalable Infrastructure
-![scalable infrastructure](https://imgur.com/a/8aV2kRj)
+![scalable infrastructure](https://imgur.com/a/8aV2kRj.jpg)
 
 ---
 ### Authors
-## Nicholas M Mwanza
+ Nicholas M Mwanza
