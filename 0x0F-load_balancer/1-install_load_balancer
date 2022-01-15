@@ -15,7 +15,7 @@ frontend load_balancer
     default_backend webserver
 backend webserver
     balance roundrobin
-    server 2152-web-01 34.75.135.160:80 check
-    seever 359-web-02 44.200.42.13:80 check
+    server 359-web-01 34.138.18.45:80 check
+    seever 359-web-02 34.231.109.207:80 check
 " >> /etc/haproxy/haproxy.cfg
 service haproxy restart
