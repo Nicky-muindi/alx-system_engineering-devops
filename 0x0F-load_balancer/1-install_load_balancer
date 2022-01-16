@@ -3,10 +3,10 @@
 #+    Enables management via the init script.
 #+    Distributes requests using a round-robin algorithm.
 
-apt-get install -y software-properties-common
-add-apt-repository -y ppa:vbernat/haproxy-2.5
+apt-get install --no-install-recommends software-properties-common
+add-apt-repository ppa:vbernat/haproxy-2.5
 apt-get update
-apt-get install -y haproxy=2.5.\*
+apt-get install haproxy=2.5.\*
 
 echo "ENABLED=1" >> /etc/default/haproxy
 mv /etc/haproxy/haproxy.cfg{,.original}
