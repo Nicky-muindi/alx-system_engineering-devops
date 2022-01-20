@@ -7,7 +7,6 @@ SSL termination.
 ## Tasks
 
 * **0. HTTPS ABC**
-  * [0-https_abc](./0-https_abc): Text file containing answers to the
   following questions, one answer per line:
   * What is HTTPS?
     * A secure version of HTTP.
@@ -25,8 +24,8 @@ SSL termination.
     website.
     * On your website web server(s).
 
-* **1. World wide web**
-  * [1-world_wide_web](./1-world_wide_web): Bash script that displays
+* **0. World wide web**
+  * [0-world_wide_web](./0-world_wide_web): Bash script that displays
   information about subdomains on my configured servers.
   * Usage: `./1-world_wide_web <domain> <subdomain>`
   * Output: `The subdomain [SUB_DOMAIN] is a [RECORD_TYPE] record and
@@ -34,11 +33,11 @@ SSL termination.
   * If no `subdomain` parameter is passed, displays information about the
   subdomains `www`, `lb-01`, `web-01` and `web-02`, in that order.
 
-* **2. HAproxy SSL termination**
-  * [2-haproxy_ssl_termination](./2-haproxy_ssl_termination): HAproxy
+* **1. HAproxy SSL termination**
+  * [1-haproxy_ssl_termination](./1-haproxy_ssl_termination): HAproxy
   configuration file that accepts encrypted SSL traffic for the subdomain
   `www.` on TCP port 443.
 
-* **3. No loophole in your website traffic**
+* **2. No loophole in your website traffic**
   * [100-redirect_http_to_https](./100-redirect_http_to_https): HAproxy
   configuration file that automatically redirects HTTP traffic to HTTPS.
