@@ -14,3 +14,5 @@ website] into a browser and hit `Enter`?
   * [1-what_happen_when_diagram](./1-what_happen_when_diagram): Text file
   containing the link to a diagram put togeter to visualize the networking
   process described in my blog.
+  * [what_happens](./what_happens1.jpg): Image of my schema diagram illustration.
+  * [what_happens2](./what_happens2.jpg): Second image of my schema illustration of what happens.
