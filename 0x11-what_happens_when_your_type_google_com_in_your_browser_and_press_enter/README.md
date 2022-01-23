@@ -15,4 +15,4 @@ website] into a browser and hit `Enter`?
   containing the link to a diagram put togeter to visualize the networking
   process described in my blog.
   * [what_happens](./what_happens1.jpg): Image of my schema diagram illustration.
-  * [what_happens2](./what_happens2.jpg): Second image of my schema illustration of what happens.
+  * [what_happens](./what_happens2.jpg): Second image of my schema illustration of what happens.
