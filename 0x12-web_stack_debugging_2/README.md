@@ -1,7 +1,7 @@
 # Web stack debugging #2
 
 This was another webstack debugging in a series of web stack debugging projects. In this
-projects, I was give tasked with fixing the web stack to a working state from their broken states. For each
+projects, I was tasked with fixing the web stack to a working state from their broken states. For each
 task, I wrote a script automating the commands necessary to fix the
 web stack.
 
