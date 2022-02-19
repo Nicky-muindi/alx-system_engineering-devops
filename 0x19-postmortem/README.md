@@ -1,5 +1,7 @@
 # Postmortem
 
+![postmortem starts](postmortem.jpg)
+
 Upon the release of ALX School's System Engineering & DevOps project 0x19,
 approximately 00:07 East Africa Time (EAT), an outage occurred on an isolated
 Ubuntu 20.04 container running an Apache web server. GET requests on the server led to
@@ -7,6 +9,7 @@ Ubuntu 20.04 container running an Apache web server. GET requests on the server 
 simple School WordPress site.
 
 ## Debugging Process
+
 
 Bug debugger, Nicholas Mwanza  encountered the issue upon opening the project and being, well, instructed to
 address it, roughly 19:20 PST. He promptly proceeded to undergo solving the problem.
@@ -35,7 +38,7 @@ matching to try and locate the erroneous `.phpp` file extension. Located it in t
 
 8. Wrote a Puppet manifest to automate fixing of the error.
 
-## Summation
+## In summary
 
 In short, a typo. Gotta love'em. In full, the WordPress app was encountering a critical
 error in `wp-settings.php` when tyring to load the file `class-wp-locale.phpp`. The correct
@@ -53,7 +56,7 @@ moving forward, please keep the following in mind.
 and could have been addressed earlier had the app been tested.
 
 * Status monitoring. Enable some uptime-monitoring service such as
-[UptimeRobot](./https://uptimerobot.com/) to alert instantly upon outage of the website.
+[Data_dog](./https//:Datadog.com/) to alert instantly upon outage of the website.
 
 Note that in response to this error, I wrote a Puppet manifest
 [0-strace_is_your_friend.pp](https://github.com/Nicky-muindi/alx-system_engineering-devops/blob/master/0x17-web_stack_debugging_3/0-strace_is_your_friend.pp)
