@@ -48,6 +48,5 @@ frontend  nicmarsolutions-frontend-https
 
 backend nicmarsolutions-backend
         balance roundrobin
-        server 335-web-01 34.75.211.145:80 check
-        server 335-web-02 3.236.217.0:80 check
-
+        server 359-web-01 34.236.191.52:80 check
+        server 359-web-02 34.231.109.207:80 check
